@@ -1,0 +1,29 @@
+{
+  "name": "drupal2ghost",
+  "description": "Convert Drupal JSON export to Ghost",
+  "author": "Ben Chevallereau <benjamin.chevallereau@gmail.com>",
+  "main": "./lib/drupal2ghost.js",
+  "bin": {
+    "wp2ghost": "./bin/drupal2ghost.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bchevallereau/drupal2ghost"
+  },
+  "keywords": [
+    "drupal",
+    "ghost",
+    "export",
+    "blogging"
+  ],
+  "dependencies": {
+    "commander": "^2.12.2",
+    "fs": "0.0.1-security",
+    "promise": "^4.0.0",
+    "request": "^2.83.0",
+    "request-progress": "^3.0.0",
+    "slug": "^0.9.1"
+  },
+  "engine": "node >= 0.10",
+  "devDependencies": {}
+}
